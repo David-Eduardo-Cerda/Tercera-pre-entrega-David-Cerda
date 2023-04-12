@@ -7,13 +7,8 @@ def ProbandoTemplate(request):
     diccionario = {"nombre" : "david" , "apellido" : "cerda", "edad" : 33, "lista" : [7,8,3,4,6]}
 
 
-    archivo = open("C:/Users/David/Desktop/Tercera-pre-entrega-David-Cerda/ProyectoDjango/Plantilla/template1.html")
+    template = loader.get_template('template1.html')
 
-
-    template = Template(archivo.read())
-    archivo.close()
-    contexto = Context(diccionario)
-
-    documento = template.render(contexto)
+    documento = template.render(diccionario)
 
     return HttpResponse(documento)

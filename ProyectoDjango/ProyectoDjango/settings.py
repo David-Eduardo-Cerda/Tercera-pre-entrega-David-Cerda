@@ -54,7 +54,7 @@ ROOT_URLCONF = 'ProyectoDjango.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': ["C:/Users/David/Desktop/escritorio/Tercera PreEntrega/ProyectoDjango/ProyectoDjango/Plantilla/"],
+        'DIRS': ["C:/Users/David/Desktop/Tercera-pre-entrega-David-Cerda/ProyectoDjango/Plantilla/template1.html"],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [

@@ -4,7 +4,7 @@ from django.template import loader
 
 def ProbandoTemplate(request):
     
-    diccionario = {"nombre" : "david" , "apellido" : "cerda", "edad" : 33}
+    diccionario = {"nombre" : "david" , "apellido" : "cerda", "edad" : 33, "lista" : [7,8,3,4,6]}
 
 
     archivo = open("C:/Users/David/Desktop/Tercera-pre-entrega-David-Cerda/ProyectoDjango/Plantilla/template1.html")

@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'AppDjango',
 ]
 
 MIDDLEWARE = [
@@ -54,7 +55,7 @@ ROOT_URLCONF = 'ProyectoDjango.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': ["C:/Users/David/Desktop/Tercera-pre-entrega-David-Cerda/ProyectoDjango/Plantilla/"],
+        'DIRS': ["C:/Users/David/Desktop/Tercera-pre-entrega-David-Cerda/ProyectoDjango/Plantilla/"], #ACA SENIALO LA RUTA DE LA CARPETA QUE CONTIENE LOS TEMPLES
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [

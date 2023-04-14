@@ -12,6 +12,25 @@
     <p>Apellido = {{ apellido }}</p>
     <p>Edad = {{ edad }}</p>
 
+    <p> Lista de Notas</p>
+
+    <ul>
+        {% for nota in lista %}
+        
+        {% if nota > 6 %} 
+
+        <li style="color: green">nota Aprobada : {{ nota }}</li>
+
+        {% else %}
+
+        <li style="color: red;"> nota Desaprobada : {{ nota }}</li>
+        
+        {% endif  %}
+
+        {% endfor %}
+        
+    </ul>
+
     
 </body>
 </html>
